@@ -1,0 +1,9 @@
+from enum import Enum
+
+class JOB_STATES(Enum):
+    INITIALIZED = "INITIALIZED"
+    RUNNING = "RUNNING"
+    PAUSED = "PAUSED"
+    COMPLETED = "SUCCEEDED"
+    CANCELLED = "CANCELLED"
+    FAILED = "FAILED"
