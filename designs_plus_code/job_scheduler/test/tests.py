@@ -1,11 +1,10 @@
 import unittest
-from sched import scheduler
 from threading import Thread
 from time import sleep
 
-from job_scheduler.constants import JOB_STATES
-from job_scheduler.jobs import VerySimpleJob
-from job_scheduler.schedulers import SimpleScheduler
+from designs_plus_code.job_scheduler.constants import JOB_STATES
+from designs_plus_code.job_scheduler.jobs import VerySimpleJob
+from designs_plus_code.job_scheduler.schedulers import SimpleScheduler
 
 
 class SimpleSchedulerTests(unittest.TestCase):
