@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from time import sleep
 import random
 
-from job_scheduler.constants import JOB_STATES
+from designs_plus_code.job_scheduler.constants import JOB_STATES
 
 #ToDo: Not ready. Several concurrency issues to be revisited.
 
